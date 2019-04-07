@@ -24,10 +24,12 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
+  arr1 = arr
+    binding.pry
   arr1 = batch_badge_creator(arr)
   arr2 = assign_rooms(arr)
   
-  binding.pry
+
   i = 0
   
   arr1.each do |line|
