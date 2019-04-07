@@ -27,7 +27,7 @@ def printer(arr)
   arr1 = batch_badge_creator(arr)
   arr2 = assign_rooms(arr)
   
-  binding.pry
+  #binding.pry
   
   
   arr1.each do |line|
