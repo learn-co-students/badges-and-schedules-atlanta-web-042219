@@ -9,12 +9,12 @@ end
 
 def batch_badge_creator(arr)
   i = 0
+  arr1 = arr
   
   arr.each do |name|
-    arr[i] = badge_maker(name)
+    arr1[i] = badge_maker(name)
     i += 1
   end
-  arr
 end
 
 def assign_rooms(arr)
