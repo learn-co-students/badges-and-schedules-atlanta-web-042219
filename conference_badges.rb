@@ -28,12 +28,13 @@ def printer(arr)
   arr2 = assign_rooms(arr)
   
   #binding.pry
-  
+  i = 0
   
   arr1.each do |line|
     puts arr1[line]
   end
   
+  i = 0
   arr1.each do |line|
     puts arr2[line]
   end
