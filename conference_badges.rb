@@ -27,8 +27,10 @@ end
 
 def printer(arr)
   blah = arr
-    binding.pry
+    
   arr1 = batch_badge_creator(arr)
+  binding.pry
+  
   arr2 = assign_rooms(arr)
   
 
