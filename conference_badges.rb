@@ -22,4 +22,6 @@ def assign_rooms(arr)
   arr[index] = "Hello, #{name}! You'll be assigned to room #{index+1}!"
   }
 end
+
+def printer
   
