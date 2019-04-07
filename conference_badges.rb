@@ -19,7 +19,7 @@ end
 
 def assign_rooms(arr)
   arr.each_with_index { |name, index| 
-  arr[index] = "Hello, #{name}! You'll be assigned to room #{index}!"
+  arr[index] = "Hello, #{name}! You'll be assigned to room #{index}+1!"
   }
   binding.pry
   arr
