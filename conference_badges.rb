@@ -16,5 +16,5 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms(arr)
-  arr.each_with_index { |name, index| 
+  arr.each_with_index { |name, index| arr
   
