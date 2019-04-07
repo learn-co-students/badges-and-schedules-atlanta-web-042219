@@ -26,7 +26,7 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
-  const blah = arr
+  Blah = arr
     
   arr1 = batch_badge_creator(arr)
   binding.pry
