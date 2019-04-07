@@ -27,7 +27,7 @@ def printer(arr)
   arr1 = arr
   i = 0
   
-  #binding.pry
+  binding.pry
   
   
   arr.each do |name|
