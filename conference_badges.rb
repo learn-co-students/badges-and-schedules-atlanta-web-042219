@@ -25,7 +25,7 @@ end
 
 def printer(arr)
   arr1 = arr
-  #binding.pry
+  binding.pry
   arr.each do |name|
     puts batch_badge_creator(arr)[i]
     i += 1
