@@ -26,5 +26,6 @@ end
 def printer(arr)
   puts batch_badge_creator(arr)
   puts assign_rooms(arr)
+  binding.pry
 end
   
