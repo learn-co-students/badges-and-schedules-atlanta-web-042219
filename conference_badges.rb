@@ -5,13 +5,12 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badget_creator(arr)
+def batch_badge_creator(arr)
   i = 0
   
   arr.each do |name|
     arr1[i] = badge_maker(name)
     i += 1
-    puts "#{name}"
   end
   arr
 end
