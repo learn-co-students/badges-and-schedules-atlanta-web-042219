@@ -30,7 +30,10 @@ def printer(arr)
     puts batch_badge_creator(arr)[i]
     i += 1
   end
-  #puts assign_rooms(arr1)[0]
+  arr1.each do |name|
+    puts assign_rooms(arr1)[i]
+    i += 1
+  end
   
 end
   
