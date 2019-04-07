@@ -20,8 +20,8 @@ end
 def assign_rooms(arr)
   arr1 = arr
   
-  arr.each_with_index { |name, index| 
-  arr[index] = "Hello, #{name}! You'll be assigned to room #{index+1}!"
+  arr1.each_with_index { |name, index| 
+  arr1[index] = "Hello, #{name}! You'll be assigned to room #{index+1}!"
   }
 end
 
