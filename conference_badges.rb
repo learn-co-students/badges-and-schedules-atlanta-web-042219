@@ -31,12 +31,14 @@ def printer(arr)
   i = 0
   
   arr1.each do |line|
-    puts arr1[line]
+    puts arr1[i]
+    i += 1
   end
   
   i = 0
   arr1.each do |line|
-    puts arr2[line]
+    puts arr2[i]
+    i += 1
   end
   
 end
